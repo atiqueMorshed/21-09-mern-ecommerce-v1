@@ -1,0 +1,24 @@
+.product {
+  height: 400px;
+
+  &-title {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      color: #585858;
+    }
+
+    & div {
+      height: 45px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      line-height: 1.5rem;
+      max-height: 3rem;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+    }
+  }
+}

@@ -1,15 +1,17 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 
+import "./_product.scss";
+
 const Product = ({ product }) => {
   return (
     <>
-      <Card className="my-3 p-1 rounded">
+      <Card className="my-3 p-1 rounded product">
         <a href={`/product/${product._id}`}>
           <Card.Img src={product.image} variant="top" />
         </a>
         <Card.Body>
-          <a href={`/product/${product._id}`}>
+          <a className="product-title" href={`/product/${product._id}`}>
             <Card.Title as="div">
               <strong>{product.name}</strong>
             </Card.Title>
