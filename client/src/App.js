@@ -4,6 +4,7 @@ import Footer from "./components/footer/footer.component";
 import Container from "react-bootstrap/Container";
 
 import "./App.scss";
+import HomePage from "./pages/homepage/homepage.component";
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
       <Header />
       <main className="py-3">
         <Container>
-          <h1>Welcome to MERN Ecomm v1</h1>
+          <HomePage />
         </Container>
       </main>
       <Footer />
