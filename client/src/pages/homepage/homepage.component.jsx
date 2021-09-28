@@ -10,7 +10,13 @@ const HomePage = () => {
       <h1>Latest Products</h1>
       <Row>
         {products.map((product) => (
-          <Col sm={12} md={6} lg={4} xl={3}>
+          <Col
+            className="d-flex align-item-stretch"
+            sm={12}
+            md={6}
+            lg={4}
+            xl={3}
+          >
             <Product key={product._id} product={product} />
           </Col>
         ))}
