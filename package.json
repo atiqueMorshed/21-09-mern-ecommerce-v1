@@ -1,0 +1,25 @@
+{
+  "name": "mern-ecommerce-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atiqueMorshed/21-09-mern-ecommerce-v1.git"
+  },
+  "keywords": [],
+  "author": "Atique Morshed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atiqueMorshed/21-09-mern-ecommerce-v1/issues"
+  },
+  "homepage": "https://github.com/atiqueMorshed/21-09-mern-ecommerce-v1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
+  }
+}
